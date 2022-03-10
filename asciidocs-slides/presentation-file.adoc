@@ -1,0 +1,42 @@
+[lightbg,background-video="videos/relaxing.mp4",background-video-loop="true",background-opacity="0.7",background-size="contain"]
+== Aufgaben des Leo-IoT-Projekts
+- Alle Klassen mit Sensorboxen ausstatten
+- Die Lernqualität durch folgende Faktoren nachhaltig anheben:
+* Sauerstoffmangel präventiv vermeiden
+* Lärmpegel minimieren
+* Raumtemperatur auf angemessenen niveau halten
+
+== Aufteilung des Projekts
+- Backend
+- Frontend
+- Value-Simulator
+
+== Istzustand
+- tendenziell fallende Luftqualität in den Klassenräumen
+* führt zu Konzentrationsschwierigkeiten und Müdigkeit
+- Lautstärke in Klassenräumen oftmals sehr Hoch
+* Lehrkraft wird schlechter verstanden
+* mindert das Tempo, indem der Lehrstoff erarbeitet werden kann
+
+== Problem
+
+- Leo IoT hat noch keine Sensorboxen
+* Problematisch für Präsentationszwecke
+* Beim Testen des Frontends hinderlich
+- Man bräuchte "realistische" Mock-Daten
+* keine statischen oder zufälligen Werte möglich
+
+== Lösung
+
+- Komplexeren Value-Simulator implementieren
+- Testdaten realitätsnahe gestalten
+* z.B. Temperatur kann nicht herumspringen
+* Co2-Gehalt steigt/sinkt in gemäßigtem Tempo
+- Den Value Simulator wie eine Sensorbox agieren lassen
+
+== Erläuterung der Funktionsweise
+
+- Coming soon
+
+
+
