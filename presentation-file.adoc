@@ -1,0 +1,109 @@
+= Leo IoT
+
+Value-Simulator
+
+[.lightbg,background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+== Aufgaben des Leo-IoT-Projekts
+
+[.lightbg,background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+=== --
+
+- Alle Klassen mit Sensorboxen ausstatten
+- Sauerstoffmangel präventiv vermeiden
+- Lärmpegel minimieren
+- Raumtemperatur auf angemessenen niveau halten
+
+[.lightbg,background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+== Aufteilung des Projekts
+
+[.lightbg,background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+=== --
+- Backend
+- Frontend
+- Value-Simulator
+
+[.lightbg,background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+== Istzustand
+
+[.lightbg,background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+=== --
+
+- tendenziell fallende Luftqualität
+
+[.lightbg,background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+=== --
+
+- Lautstärke in Klassenräumen
+
+[.lightbg,background-image="backroundpic1.png"]
+== Problem
+
+[.lightbg,background-image="backroundpic1.png"]
+=== --
+- Nur Prototyp Sensorboxen
+* Präsentationszwecke
+* Testen des Frontends
+
+[.lightbg,background-image="backroundpic1.png"]
+=== --
+
+- man braucht "realistische" Mock-Daten
+* nicht statisch/zufällig
+
+
+[.lightbg,background-video="videos/backround2.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain",background-video-muted=true]
+== Lösung
+
+[.lightbg,background-video="videos/backround2.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain",background-video-muted=true]
+=== --
+
+- Value Simulator soll komplexe Wertstrukturen liefern
+
+[.lightbg,background-video="videos/backround2.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain",background-video-muted=true]
+=== --
+
+- Beispiel für realitätsnahe Werte
+*  Temperatur
+
+image::values.png[AdoptOpenJDK]
+
+[.lightbg,background-video="videos/backround2.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain",background-video-muted=true]
+=== --
+
+- Value Simulator wie Sensorbox behandeln
+
+[.lightbg, background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+== System Architektur
+
+image::systemarchitecture.png[AdoptOpenJDK]
+
+[.lightbg, background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+== Funktionsweise
+
+[.lightbg, background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+=== --
+- Add
+
+image::post.png[AdoptOpenJDK]
+
+[.lightbg, background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+=== --
+
+image::stats.png[AdoptOpenJDK]
+
+[.lightbg, background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+=== --
+- Delete
+
+image::post1.png[AdoptOpenJDK]
+
+[.lightbg, background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+== Nächster Schritt
+
+- Frontend
+
+[.lightbg, background-video="videos/backround1.mp4",background-video-loop="true",background-opacity="0.4",background-size="contain"]
+== Danke für Ihre Aufmerksamkeit!
+
+
+
